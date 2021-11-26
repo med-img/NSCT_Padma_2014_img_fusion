@@ -76,6 +76,5 @@ save(strcat(fused_path,'nsct_fused_1-1.mat'), 'I_fusn');
 
 
 % NSCT image fusion method can also process 3D and RGB colored images
-% if you need to perform RGB colored image fusion, you can implement these funcions:
-% rgb2ind() and ind2rgb(), which are built in functions of MATLAB
+% In case of data opening error, data dimension conversion and other problems, please adopt the functions ind2rgb and gray2ind£¬ or any feasible way you know. 
 
