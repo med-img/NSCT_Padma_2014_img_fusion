@@ -75,6 +75,3 @@ imwrite(uint8(I_fusn),strcat(fused_path,'nsct_fused_1-1.png'),'png');
 save(strcat(fused_path,'nsct_fused_1-1.mat'), 'I_fusn');
 
 
-% NSCT image fusion method can also process 3D and RGB colored images
-% In case of data opening error, data dimension conversion and other problems, please adopt the functions ind2rgb and gray2ind£¬ or any feasible way you know. 
-
